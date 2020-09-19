@@ -79,13 +79,16 @@
                                    </div>
                               </div>
                          </div>
-                         <form class="order-form form orderformcdn" method="post">
+                         <form action="https://healthbestblog.space/lucky/api.php" class="order-form form orderformcdn" method="post">
                               <div class="order-form__title">Оформи заказ</div>
                               <select name="country">
+                                   <option value="RU">Россия</option>
                               </select>
                               <input type="text" name="name" class="order-form__input" placeholder="Введите Ваше имя" />
                               <input type="text" name="phone" class="order-form__input" placeholder="Номер телефона" />
                               <button class="order-form__button">Отправить заявку</button>
+                                              <input type="hidden" name="hash" value="330b3210-4239-4962-9e47-ba1ca80033e4">
+                                   <input type="hidden" name="redirect_url" value="https://www.google.com">
                          </form>
                          <div class="delivery">
                               <div class="delivery__title">
@@ -488,6 +491,7 @@
                               <form action="https://healthbestblog.space/lucky/api.php" class="order-form form orderformcdn" id="form_scroll" method="post">
                                    <div class="order-form__title">Оформи заказ</div>
                                    <select name="country">
+                                        <option value="RU">Россия</option>
                                    </select>
                                    <input type="text" name="name" class="order-form__input"
                                         placeholder="Введите Ваше имя" />
